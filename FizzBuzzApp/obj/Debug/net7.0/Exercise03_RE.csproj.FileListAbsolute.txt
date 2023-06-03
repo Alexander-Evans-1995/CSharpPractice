@@ -1,0 +1,15 @@
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\bin\Debug\net7.0\Exercise03_RE.exe
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\bin\Debug\net7.0\Exercise03_RE.deps.json
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\bin\Debug\net7.0\Exercise03_RE.runtimeconfig.json
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\bin\Debug\net7.0\Exercise03_RE.dll
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\bin\Debug\net7.0\Exercise03_RE.pdb
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.csproj.AssemblyReference.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.GeneratedMSBuildEditorConfig.editorconfig
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.AssemblyInfoInputs.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.AssemblyInfo.cs
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.csproj.CoreCompileInputs.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.dll
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\refint\Exercise03_RE.dll
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.pdb
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\Exercise03_RE.genruntimeconfig.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\Exercise03_RE\obj\Debug\net7.0\ref\Exercise03_RE.dll
