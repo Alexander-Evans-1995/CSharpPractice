@@ -1,4 +1,4 @@
-namespace PrimeFactorUnitTest;
+namespace PrimeFactorNamespace;
 
 public class UnitTest1
 {
