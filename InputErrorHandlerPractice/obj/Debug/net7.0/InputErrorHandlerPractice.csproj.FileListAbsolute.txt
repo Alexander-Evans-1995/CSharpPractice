@@ -1,0 +1,15 @@
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\bin\Debug\net7.0\InputErrorHandlerPractice.exe
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\bin\Debug\net7.0\InputErrorHandlerPractice.deps.json
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\bin\Debug\net7.0\InputErrorHandlerPractice.runtimeconfig.json
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\bin\Debug\net7.0\InputErrorHandlerPractice.dll
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\bin\Debug\net7.0\InputErrorHandlerPractice.pdb
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.csproj.AssemblyReference.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.GeneratedMSBuildEditorConfig.editorconfig
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.AssemblyInfoInputs.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.AssemblyInfo.cs
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.csproj.CoreCompileInputs.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.dll
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\refint\InputErrorHandlerPractice.dll
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.pdb
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\InputErrorHandlerPractice.genruntimeconfig.cache
+E:\Modern Cross-Platform Development\Code\Chapter03\InputErrorHandlerPractice\obj\Debug\net7.0\ref\InputErrorHandlerPractice.dll
