@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharpPractice\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj": {}
+    "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj": {}
   },
   "projects": {
-    "E:\\CSharpPractice\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj": {
+    "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharpPractice\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
+        "projectUniqueName": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
         "projectName": "PrimeFactorClassLib",
-        "projectPath": "E:\\CSharpPractice\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
+        "projectPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharpPractice\\PrimeFactorClassLib\\obj\\",
+        "outputPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

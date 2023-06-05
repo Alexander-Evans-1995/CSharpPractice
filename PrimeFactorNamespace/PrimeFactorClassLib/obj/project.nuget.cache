@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WOSUUzz1buHM+MmvcfABB93gDJetDqs6I0dS6LyWKmWvqqPHZj8S3DoxfkGmx7Th+bCkBexAxqFut4z83VGndQ==",
+  "dgSpecHash": "mB4iiDqdtzp+VNuytakqOg6q2Iizxd1k1Hpgm+ChXpGponXlfl+eHmYLoSCcmWHHzgKsUMdXtcZh3SRnmuTKCw==",
   "success": true,
-  "projectFilePath": "E:\\CSharpPractice\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
+  "projectFilePath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

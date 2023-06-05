@@ -1,0 +1,12 @@
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\bin\Debug\net7.0\PrimeFactorClassLib.deps.json
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\bin\Debug\net7.0\PrimeFactorClassLib.dll
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\bin\Debug\net7.0\PrimeFactorClassLib.pdb
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\PrimeFactorClassLib.csproj.AssemblyReference.cache
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\PrimeFactorClassLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\PrimeFactorClassLib.AssemblyInfoInputs.cache
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\PrimeFactorClassLib.AssemblyInfo.cs
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\PrimeFactorClassLib.csproj.CoreCompileInputs.cache
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\PrimeFactorClassLib.dll
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\refint\PrimeFactorClassLib.dll
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\PrimeFactorClassLib.pdb
+E:\CSharpPractice\PrimeFactorNamespace\PrimeFactorClassLib\obj\Debug\net7.0\ref\PrimeFactorClassLib.dll

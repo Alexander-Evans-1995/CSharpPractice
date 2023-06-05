@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "PrimeFactorClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PrimeFactorClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeFactorClassLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PrimeFactorClassLib/1.0.0": {
+      "type": "project",
+      "path": "../PrimeFactorClassLib/PrimeFactorClassLib.csproj",
+      "msbuildProject": "../PrimeFactorClassLib/PrimeFactorClassLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "PrimeFactorClassLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\alexe\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharpPractice\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
+      "projectUniqueName": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
       "projectName": "PrimeFactorProgram",
-      "projectPath": "E:\\CSharpPractice\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
+      "projectPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
       "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharpPractice\\PrimeFactorProgram\\obj\\",
+      "outputPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,7 +56,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj": {
+              "projectPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

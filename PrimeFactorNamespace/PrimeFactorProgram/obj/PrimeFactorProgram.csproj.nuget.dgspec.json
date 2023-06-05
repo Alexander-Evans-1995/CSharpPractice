@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharpPractice\\PrimeFactorProgram\\PrimeFactorProgram.csproj": {}
+    "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\PrimeFactorProgram.csproj": {}
   },
   "projects": {
-    "E:\\CSharpPractice\\PrimeFactorProgram\\PrimeFactorProgram.csproj": {
+    "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharpPractice\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
-        "projectName": "PrimeFactorProgram",
-        "projectPath": "E:\\CSharpPractice\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
+        "projectUniqueName": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
+        "projectName": "PrimeFactorClassLib",
+        "projectPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharpPractice\\PrimeFactorProgram\\obj\\",
+        "outputPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,6 +31,68 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\PrimeFactorProgram.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
+        "projectName": "PrimeFactorProgram",
+        "projectPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\PrimeFactorProgram.csproj",
+        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorProgram\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj": {
+                "projectPath": "E:\\CSharpPractice\\PrimeFactorNamespace\\PrimeFactorClassLib\\PrimeFactorClassLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
