@@ -3,13 +3,12 @@
 class PrimeFactorProgram {
     public static void Main() {
         PrimeFactor primeFactor = new PrimeFactor();
-        int number = 973;
-        /* int cache = 1; */
-
-        try {
-            System.Console.Write(primeFactor.primeFactorial(number));
-        } catch (ArgumentException e) {
-            System.Console.Write(e.Message);
+        var result = new List<int> {};
+        int number = 964;
+        
+        result = primeFactor.PrimeFactorRun(number);
+        if (result.Count == 0) {
+            System.Console.Write("Empty list");
         }
     }
 }
