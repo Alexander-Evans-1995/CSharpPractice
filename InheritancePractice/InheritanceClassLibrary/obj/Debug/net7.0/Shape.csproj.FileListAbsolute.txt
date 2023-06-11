@@ -1,0 +1,12 @@
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\bin\Debug\net7.0\Shape.deps.json
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\bin\Debug\net7.0\Shape.dll
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\bin\Debug\net7.0\Shape.pdb
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\Shape.csproj.AssemblyReference.cache
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\Shape.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\Shape.AssemblyInfoInputs.cache
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\Shape.AssemblyInfo.cs
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\Shape.csproj.CoreCompileInputs.cache
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\Shape.dll
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\refint\Shape.dll
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\Shape.pdb
+E:\CSharpPractice\InheritancePractice\InheritanceClassLibrary\obj\Debug\net7.0\ref\Shape.dll
