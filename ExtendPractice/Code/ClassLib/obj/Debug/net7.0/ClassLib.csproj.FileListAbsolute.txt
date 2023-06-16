@@ -1,0 +1,12 @@
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\bin\Debug\net7.0\ClassLib.deps.json
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\bin\Debug\net7.0\ClassLib.dll
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\bin\Debug\net7.0\ClassLib.pdb
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ClassLib.csproj.AssemblyReference.cache
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfoInputs.cache
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfo.cs
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ClassLib.csproj.CoreCompileInputs.cache
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ClassLib.dll
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\refint\ClassLib.dll
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ClassLib.pdb
+E:\CSharpPractice\ExtendPractice\Code\ClassLib\obj\Debug\net7.0\ref\ClassLib.dll
