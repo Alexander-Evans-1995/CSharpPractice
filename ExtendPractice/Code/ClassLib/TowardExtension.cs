@@ -75,11 +75,11 @@ public static class TowardExtension
             throw new ArgumentException("integer to convert is outside range.");
         
         // changes input to a string.
+        // Testing
         inputString = input.ToString();
         places = inputString.Length;
 
-
-
+        // No need for dynamic index because there is only one length option (3).
         if (places == 3) {
             switch (inputString[0]) {
                 case '1':
@@ -120,45 +120,52 @@ public static class TowardExtension
                 if (returnString[2] == 0)
                     return returnString;
                 // decrements places since the tens place is zero.
+                // New value of places is 1.
                 places--;
             }
 
-            inputString += " and ";
-        } // places == 3
+            returnString += " and ";
+        } // if: places == 3
 
+        // The index is set to inputString.Length - 2 and inputString.Length - 1.
+        // This is because the inputString may be either three or two objects.
+        // Since the index for the tenth position is dynamic; the index must be dynamic.
+        // EX: 56  -> index = 0.
+        //     567 -> index = 1.
         if (places == 2) {
             // if there is one in the tens place.
-            if (inputString[1] == '1') {
-                switch(inputString[2]) {
+            // Returns string.
+            if (inputString[inputString.Length - 2] == '1') {
+                switch(inputString[inputString.Length - 1]) {
                     case '0':
-                        inputString += "ten";
+                        returnString += "ten";
                         break;
                     case '1':
-                        inputString += "eleven";
+                        returnString += "eleven";
                         break;
                     case '2':
-                        inputString += "twelve";
+                        returnString += "twelve";
                         break;
                     case '3':
-                        inputString += "thirteen";
+                        returnString += "thirteen";
                         break;
                     case '4':
-                        inputString += "fourteen";
+                        returnString += "fourteen";
                         break;
                     case '5':
-                        inputString += "fifteen";
+                        returnString += "fifteen";
                         break;
                     case '6':
-                        inputString += "sixteen";
+                        returnString += "sixteen";
                         break;
                     case '7':
-                        inputString += "seventeen";
+                        returnString += "seventeen";
                         break;
                     case '8':
-                        inputString += "eightteen";
+                        returnString += "eightteen";
                         break;
                     case '9':
-                        inputString += "nineteen";
+                        returnString += "nineteen";
                         break;
                     default:
                         throw new Exception("An error has occured in places==2; inputString[1]");
@@ -167,7 +174,8 @@ public static class TowardExtension
             }
 
             // Standard
-            switch(inputString[1]) {
+            switch(inputString[inputString.Length - 2]) {
+                
                 case '2':
                     returnString += "twenty";
                     break;
@@ -193,38 +201,59 @@ public static class TowardExtension
                     returnString += "nine";
                     break;
                 default:
-                    throw new Exception();
+                    throw new Exception("An error has occured in places 2 standard switch.");
             }
 
             // Standard spacing
-            // Add a check for a zero in the ones place. If there is a zero, then return.
+            // Check for a zero in the ones place. If there is a zero, then return.
+            if (inputString[inputString.Length - 1] == '0')
+                return returnString;
+            
             // If not zero, then add "-".
+            else {
+                returnString += "-";
+            }
+
+            // decrement
+            places--;
         } 
+
+        // Dynamic index.
         if (places == 1) {
-            switch (input) {
-                case 1:
-                    return "one";
-                case 2:
-                    return "two";
-                case 3:
-                    return "three";
-                case 4:
-                    return "four";
-                case 5:
-                    return "five";
-                case 6:
-                    return "six";
-                case 7:
-                    return "seven";
-                case 8:
-                    return "eight";
-                case 9:
-                    return "nine";
+            switch (inputString[inputString.Length - 1]) {
+                case '1':
+                    returnString += "one";
+                    return returnString;
+                case '2':
+                    returnString += "two";
+                    return returnString;
+                case '3':
+                    returnString += "three";
+                    return returnString;
+                case '4':
+                    returnString += "four";
+                    return returnString;
+                case '5':
+                    returnString += "five";
+                    return returnString;
+                case '6':
+                    returnString += "six";
+                    return returnString;
+                case '7':
+                    returnString += "seven";
+                    return returnString;
+                case '8':
+                    returnString += "eight";
+                    return returnString;
+                case '9':
+                    returnString += "nine";
+                    return returnString;
                 default:
-                    throw new Exception("An error has occure in places=1 and switch(input).");
+                    throw new Exception("An error has occure in places=1 and switch(input).\nInput String: " + inputString);
             }
         }
+        
         return returnString;
-    }
+    } // towardToString() method
 } // class
 
