@@ -3,12 +3,10 @@ namespace TowardExtension;
 /* using TowardExtension; */
 class Program {
     public static void Main() {
-        int test = 114;
+        int test = 2147400647;
 
-        try {
-        System.Console.WriteLine(TowardExtension.towardToString(test));
-        } catch (Exception e) {
-            System.Console.Write(e.Message);
-        }
+        System.Console.WriteLine(test.Toward());
+
+        
     }
 }

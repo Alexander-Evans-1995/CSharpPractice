@@ -1,6 +1,4 @@
-﻿// Algorithim needs serious review.
-// Every hundreds place needs to be put into actual language.
-// Recommend loop to add to return array.
+﻿// Changes towardToString() param from int to string.
 
 namespace TowardExtension;
 /// <summary>
@@ -9,74 +7,89 @@ namespace TowardExtension;
 public static class TowardExtension
 {
     /// <summary>
-    /// An extension method which converts an integer 32 into normal language.
+    /// An extension method which converts a positive integer 32 into normal language.
     /// EX: "567,400 -> Fifty-six hundred thousand".
     /// </summary>
-    /// <param name="i">integer to be converted (static extension call)</param>
+    /// <param name="i">positive integer to be converted (static extension call)</param>
     /// <returns>string of normal language for an integer 32.</returns>
     public static string Toward(this int i) {
-        string  iString, returnStringPartOne = "", 
-                returnStringPartTwo = "", returnStringPartThree = "",
-                returnString = "";
-        char iCharOne, iCharTwo, iCharThree;
-        int iStringLength;
-        // used for tens place since the tens place has unique nomenclature. Default false
-        bool tens = false;
-        
+        string iString, returnString = "", subString;
+        int modulus, count = 0;
+
+        // zero check
+        if (i == 0)
+            return "zero";
+
         iString = i.ToString();
-        iStringLength = iString.Length;
-        iCharOne = iString[0];
-        iCharTwo = iString[1];
-        iCharThree = iString[2];
+        modulus = iString.Length % 3;
 
-        
-        
-        // Needs to concat returnString from here on.
-        if( i < 100) {
-            if (tens == true)
-                return returnString;
+        for (int x = iString.Length - 1; x > 1; x-=3) {
+            subString = iString.Substring(x-2, 3);
+            subString = towardToString(subString);
 
-            else {
-                returnString = returnStringPartOne + returnStringPartTwo;
-                return returnString;
-            }
+            if (count == 0 && subString != "") 
+                returnString = subString;       
+            else if (count == 1 && subString != "")
+                returnString = subString + " thousand and " + returnString;
+            else if (count == 2 && subString != "")
+                returnString = subString + " million and " + returnString;
+
+            count++;
         }
         
-        switch (iStringLength) {
-            // case three needs review. 
-            // EX: 567 -> expected: Five Hundred and Sixty; actual: Five Hundred and Six
-            case 3:
-                returnString = returnStringPartOne + " hundred" + " and " + returnStringPartTwo;
-                break;
-            case 4:
-                returnString = returnStringPartOne + " thousand" + " and " + returnStringPartTwo + " hundred";
-                break;
-            case 5:
-                returnString += "  thousand";
-                break;
-            case 6:
-                returnString += " ";
-                break;
-        } // swtich
+        if (modulus != 0) {
+            // sets subString
+            if (modulus == 1)
+                subString = towardToString(iString.Substring(0, 1));
+            else
+                subString = towardToString(iString.Substring(0, 2));
 
-        return "Not less than 100";
+            if (returnString == "") {
+                // Determines size of number.
+                if (count == 3) 
+                    return subString + " billion";
+                
+                else if (count == 2)
+                    return subString + " million";
+                
+                else if (count == 1)
+                    return subString + " thousand";
+                
+                else 
+                    return subString;
+            }
+            // Determines size of number.
+            if (count == 3) 
+                returnString = subString + " billion and " + returnString;
+            
+            else if (count == 2)
+                returnString = subString + " million and " + returnString;
+            
+            else if (count == 1)
+                returnString = subString + " thousand and " + returnString;
+            
+            else 
+                returnString = subString;
+        }
+
+        return returnString;
     } // method Toward
 
     /// <summary>
-    /// Returns string of normal language for a number up to one hundred 
+    /// Returns string of normal lan uage for a number up to one hundred 
     /// </summary>
-    /// <param name="towardArguments"></param>
+    /// <param name="towardArguments">String from 1 - 100</param>
     /// <returns></returns>
-    public static string towardToString(int input) {
+    static string towardToString(string inputString) {
         int places;
-        string returnString = "", inputString = "";
-
-        if (input < 1 || input > 999)
-            throw new ArgumentException("integer to convert is outside range.");
+        string returnString = "";
+        
+        // Checks if zero-zero-zero.
+        // Returns empty string
+        if (inputString == "000")
+            return "";
         
         // changes input to a string.
-        // Testing
-        inputString = input.ToString();
         places = inputString.Length;
 
         // No need for dynamic index because there is only one length option (3).
@@ -116,8 +129,8 @@ public static class TowardExtension
             places--;
 
             // For x-zero-zero, x-zero-z
-            if (returnString[1] == 0) {
-                if (returnString[2] == 0)
+            if (inputString[1] == '0') {
+                if (inputString[2] == '0')
                     return returnString;
                 // decrements places since the tens place is zero.
                 // New value of places is 1.
@@ -175,7 +188,8 @@ public static class TowardExtension
 
             // Standard
             switch(inputString[inputString.Length - 2]) {
-                
+                case '0':
+                    break;
                 case '2':
                     returnString += "twenty";
                     break;
@@ -195,10 +209,10 @@ public static class TowardExtension
                     returnString += "seventy";
                     break;
                 case '8':
-                    returnString += "eight";
+                    returnString += "eighty";
                     break;
                 case '9':
-                    returnString += "nine";
+                    returnString += "ninety";
                     break;
                 default:
                     throw new Exception("An error has occured in places 2 standard switch.");
